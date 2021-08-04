@@ -1,0 +1,79 @@
+.login-page{
+    background-color: #e7e7e7;
+    max-width: 500px;
+    border: 2px solid rgb(3, 165, 206);
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px grey;
+    padding: 30px;
+    margin: 50px auto;
+}
+.login-page h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #555;
+}
+.login-page form input{
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    padding: 0 5px;
+    outline: rgb(3, 165, 206);
+    border: 1px solid rgb(3, 165, 206);
+}
+.rotate:hover{
+    font-size: 20px;
+}
+
+ .rotate {
+      color: #fff;
+      
+      font-family: "Josefin Sans", sans-serif;
+      background: linear-gradient(to right,#095fab 10%, #25abe8 50%, #57d75b 60%);
+      background-size: auto auto;
+      background-clip: border-box;
+      background-size: 200% auto;
+      color: #fff;
+      background-clip: text;
+      text-fill-color: transparent;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: textclip 2.5s linear infinite;
+      display: inline-block;
+    }
+  
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+.login-page form .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-page form button{
+	display: block;
+	width: 50%;
+	height: 50px;
+	border-radius: 25px;
+	outline: none;
+	border: none;
+	background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);
+	background-size: 200%;
+	font-size: 1.2rem;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	margin: 1rem 0;
+	cursor: pointer;
+	transition: .5s;
+}
+.login-page form button:hover{
+	background-position: right;
+}
+.login-page form a{
+    color: orange;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+}
